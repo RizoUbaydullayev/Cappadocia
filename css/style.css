@@ -50,7 +50,8 @@ a {
   padding: 0 15px;
 }
 .page-section {
-  margin: 200px 0;
+  margin: 200px auto;
+  max-width: 1920px;
 }
 .title {
   font-size: 96px;
@@ -128,5 +129,59 @@ a {
   font-family: 'RobotoCondensed-LightItalic';
 }
 /*========================= fairy tail  ================================================*/
+.fairy-tail__inner {
+  position: relative;
+}
+.fairy-tail__slider {
+  width: 50%;
+}
+.fairy-tail__container {
+  position: absolute;
+  max-width: 1230px;
+  padding: 0 auto;
+  margin: 0 auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.fairy-tail__container .fairy-tail__body {
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.fairy-tail__container .fairy-tail__body .fairy-tail__text {
+  padding: 10px 0;
+}
+.fairy-tail__container .fairy-tail__body .fairy-tail__body-title {
+  font-family: 'RobotoCondensed-Regular';
+}
+.slick-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 6;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
+}
 /*=========================   ================================================*/
 /*=========================   ================================================*/
