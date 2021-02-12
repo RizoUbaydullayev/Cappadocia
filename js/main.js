@@ -1,3 +1,3 @@
 $(function() {
-	&('.fairy-tail__slider').slick({});
+	$('.fairy-tail__slider').slick({});
 });
