@@ -183,5 +183,61 @@ a {
 .slick-next {
   right: 0;
 }
+/*========================= our trip  ================================================*/
+.our-trip__inner {
+  position: relative;
+}
+.our-trip__container {
+  position: absolute;
+  max-width: 1230px;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.our-trip__slider {
+  width: 50%;
+  margin-left: auto;
+}
+.our-trip__title span {
+  margin-left: 240px;
+}
+.our-trip__body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.our-trip__list {
+  margin: 5px 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+.our-trip__list li:first-child {
+  margin-bottom: 20px;
+  font-family: 'RobotoCondensed-Regular';
+}
+.our-trip__btn {
+  font-family: 'RobotoCondensed-Light';
+  font-size: 24px;
+  line-height: 28px;
+  border: 1px solid #E2AB3F;
+  padding: 11px 53px;
+}
+.our-trip__content {
+  width: 50%;
+  padding-right: 55px;
+}
 /*=========================   ================================================*/
 /*=========================   ================================================*/
