@@ -239,5 +239,33 @@ a {
   width: 50%;
   padding-right: 55px;
 }
-/*=========================   ================================================*/
+/*=========================hotel   ================================================*/
+.hotel .hotel__title span {
+  margin-left: 120px;
+}
+.hotel .hotel__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hotel .hotel__inner .hotel__images {
+  margin-right: 100px;
+}
+.hotel .hotel__inner .hotel__text {
+  margin-bottom: 20px;
+}
+.hotel .hotel__inner .hotel__gallary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+.hotel .hotel__inner .hotel__gallary a {
+  margin-top: 50px;
+}
 /*=========================   ================================================*/
