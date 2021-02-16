@@ -257,4 +257,193 @@ a{
 
 
 
-/*=========================   ================================================*/
+/*========================= price  ================================================*/
+.price {
+  background-image: url(../images/price-bg.png);
+  background-repeat: no-repeat;
+  background-position:center right 2%;
+  .price__title {
+    span{
+      margin-left: 120px;
+    }
+  }
+  .price__inner {
+    display: flex;
+    .price__on {
+      width: 530px;
+      margin-right: 70px;
+      .price__on-title{
+        line-height: 28px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-family: 'RobotoCondensed-Regular';
+      }
+    }
+    .price__off {
+      .price__off-title{
+        line-height: 28px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-family: 'RobotoCondensed-Regular';
+      }
+    }
+    .price__list-item {
+      margin-bottom: 20px; 
+    }
+  }
+}
+/*========================= contacts  ================================================*/
+.contacts {
+  .contacts__inner {
+    display: flex;
+    justify-content: space-between;
+    .contacts__content {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      .contacts__info {
+        .contacts__data {
+          margin-bottom: 20px;
+          font-family: 'balqis';
+          font-size: 96px;
+          line-height: 100px;
+          color: #E2AB3F;
+          span {
+            display: block;
+            margin-left: 205px;
+            margin-top: -10px;
+            line-height: 28px;
+            font-size: 24px;
+            color:#000;
+            font-family: 'RobotoCondensed-LightItalic';
+          }
+        }
+        .contacts__price {
+          margin-left: 120px;
+          font-family: 'balqis';
+          font-size: 96px;
+          line-height: 100px;
+          color: #E2AB3F;
+          span {
+            display: block;
+            margin-left: 205px;
+            margin-top: -10px;
+            line-height: 28px;
+            font-size: 24px;
+            color:#000;
+            font-family: 'RobotoCondensed-LightItalic';
+          }
+        }
+      }
+      .contacts__form {
+        max-width:383px;
+        margin: 0 auto;
+        .contacts__form-title {
+          margin-bottom: 50px;
+          font-size: 24px;
+          line-height: 28px;
+          font-family: 'RobotoCondensed-Regular'
+        }
+        .contacts__form-input {
+          padding:0 31px;
+          display: block;
+          border:solid 1px #E2AB3F;
+          margin-bottom: 20px;
+          height: 50px;
+          width: 100%;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 21px;
+          font-family: 'RobotoCondensed-Light';
+          &::placeholder {
+            color: #000;
+          }
+        }
+        .contacts__form-btn {
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          text-transform: uppercase;
+          border:solid 1px #E2AB3F;
+          background-color: transparent;
+          padding:11px 45px;
+          font-family: 'RobotoCondensed-Light';
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}
+/*========================= footer  ================================================*/
+.footer {
+  background-image: url(../images/footer-bg.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:bottom center;
+  padding-top: 96px;
+  .footer__inner {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    .footer__contacts {
+      width: 356px;
+      height: 527px;
+      background-image:url(../images/footer-contact-bg.png);
+      background-repeat:no-repeat;
+      text-align: center;
+      background-size:cover;
+      .footer__contacts-title {
+        padding-top: 50px;
+        font-size: 86px;
+        line-height: 115px;
+        font-family: 'balqis';
+        color: #E2AB3F;
+        margin-bottom: 50px;
+      }
+      .footer__phone {
+        margin-bottom: 20px;
+        display: inline-block;
+        padding-left: 40px;
+        position: relative;
+        &::before {
+          content:"";
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 0;
+          background-image:url(../images/footer-phone-icon.svg);
+          top: -5px;
+        }
+      }
+      .footer__email {
+        display: inline-block;
+        padding-left: 40px;
+        position: relative;
+        &::before {
+          content:"";
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 0;
+          background-image:url(../images/footer-email-icon.svg);
+          top: -5px; 
+        }
+      }
+      .footer__social {
+        margin-top: 38px;
+        a {
+          margin:0 7px;
+
+        }
+      }
+    }
+    .footer__text {
+      font-size: 86px;
+      line-height: 115px;
+      font-family: 'balqis';
+    }
+  }
+}
+/*========================= price  ================================================*/
