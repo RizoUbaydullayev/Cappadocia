@@ -136,11 +136,14 @@ a{
   }
   &__slider {
     width: 50%;
+    // height: 100%;
+    .fairy-tail__item {
+    }
   }
   &__container {
     position: absolute;
     max-width: 1230px;
-    padding:0 auto;
+    padding:0 15px;
     margin: 0 auto;
     top: 0;
     right: 0;
@@ -148,7 +151,6 @@ a{
     bottom: 0;
     .fairy-tail__body {
       width: 50%;
-      height: 100%;
       margin-left: auto;
       padding-left: 55px;
       display: flex;
@@ -446,4 +448,97 @@ a{
     }
   }
 }
-/*========================= price  ================================================*/
+/*========================= Адаптив   ================================================*/
+@media(max-width: 1240px) {
+
+  .header__title {
+    padding-top: 120px;
+    font-size: 180px;
+    line-height: 220px;
+    span {
+      font-size: 50px;
+      margin-top: -50px;
+      margin-right: 105px;
+    }
+  }
+}
+@media(max-width: 991px){
+  .faity-tail__title {
+    margin-bottom: 30px;
+  }
+  .fairy-tail__container .fairy-tail__body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .page-section {
+    margin: 100px 0;
+  }
+  .fairy-tail__container,.our-trip__container {
+    position:static;
+  }
+  .fairy-tail__slider {
+    width: 100%;
+  }
+}
+@media(max-width: 840px) {
+  .header__top {
+    font-size: 20px;
+    line-height: 24px;
+    .header__phone::before {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+    }
+  }
+  .header__title {
+    padding-top: 100px;
+    font-size: 120px;
+    line-height: 150px;
+    span {
+      font-size: 30px;
+      margin-top: -44px;
+      margin-right: 105px;
+    }
+  }
+}
+@media(max-width: 600px) {
+  .header__top {
+    justify-content: center;
+    flex-wrap:wrap;
+    .menu {
+      width: 100%;
+      text-align: center;
+      margin: 0 0 25px;
+    }
+  }
+  .header__title {
+    padding-top: 120px;
+    font-size: 80px;
+    line-height: 120px;
+    span {
+      font-size: 22px;
+      margin-top: -46px;
+      margin-right: 15px;
+    }
+  }
+}
+@media(max-width: 370px) {
+  .header__top {
+    .menu {
+      .menu__list-item+.menu__list-item {
+        margin-left: 18px;
+      } 
+    }
+  }
+  .header__title {
+    padding-top: 120px;
+    font-size: 60px;
+    line-height: 100px;
+    span {
+      font-size: 18px;
+      margin-right: 0px;
+    }
+  }
+}
+/*========================= Адаптив  ================================================*/
